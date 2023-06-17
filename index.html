@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="lightgreen">
+    <center>
+        <h1>Registration Form</h1>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="name"><h4>Name:</h4></label></td>
+                    <td><input type="text" name="name" id="name" placeholder="Enter your name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email"><h4>Email:</h4></label></td>
+                    <td><input type="email" name="email" id="email"placeholder="Enter your Email"></td>
+                </tr>
+                <tr>
+                    <td><label for="phonenumber"><h4>Phone number:</h4></label></td>
+                    <td><input type="number" name="phonenumber"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender"><h4>Gender:</h4></label></td>
+                    <td><input type="radio" name="gender" required>Male
+                        <input type="radio" name="gender" required>Female
+                        <input type="radio" name="gender" required>Others</td>
+                </tr>
+                <tr>
+                    <td><label for="Language"><h4>Language:</h4></label></td>
+                    <td><select name="language" required>
+                        <option value="">Select Language</option>
+                        <option value="">English</option>
+                        <option value="">Telugu</option>
+                        <option value="">Hindi</option>
+                        <option value="">Spanish</option>
+                        <option value="">Chinese</option>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="pincode"><h4>Pincode:</h4></label></td>
+                    <td><input type="number" name="pincode" required></td>
+                </tr>
+                <tr>
+                    <td><label for="about"><h4>About:</h4></label></td>
+                    <td><textarea name="about" id="about" cols="30" rows="10" placeholder="Write about Yourself"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="password"><h4>Password:</h4></label></td>
+                    <td><input type="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" class="submit" value="Register"></td>
+                </tr>
+            </table>
+
+        </form>
+    </center>
+</body>
+</html>
